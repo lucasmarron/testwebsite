@@ -1,0 +1,9 @@
+name: "my-website"
+navbar:
+  left:
+    - text: "Black Businesses"
+      href: index.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
