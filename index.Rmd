@@ -1,13 +1,14 @@
 ---
-title: "Black Businesses in Eugene"
+title: "Black Owned Businesses in Eugene"
 output:
   html_document:
     toc: true
     toc_float: true
+
 ---
 ```{r include=FALSE}
 library(pacman)
-p_load(tidyverse,kableExtra)
+p_load(tidyverse,kableExtra, rmdformats)
 library(readr)
 bbe <- read_csv("Black Businesses to Support in Eugene - Sheet2.csv")
 ```
@@ -15,14 +16,14 @@ bbe <- read_csv("Black Businesses to Support in Eugene - Sheet2.csv")
 ## Food and Dining
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "food.dining"))%>%
+kable(filter(bbe, Type == "food.dining")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 ```
 
 ## Hair Care and Beauty
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "haircare.beauty"))%>%
+kable(filter(bbe, Type == "haircare.beauty")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```
@@ -30,7 +31,7 @@ kable(filter(bbe, Type == "haircare.beauty"))%>%
 ## Cannabis and Vape
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "cannabis.vape"))%>%
+kable(filter(bbe, Type == "cannabis.vape")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```
@@ -38,7 +39,7 @@ kable(filter(bbe, Type == "cannabis.vape"))%>%
 ## Retail
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "retail"))%>%
+kable(filter(bbe, Type == "retail")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```
@@ -46,14 +47,14 @@ kable(filter(bbe, Type == "retail"))%>%
 ## Home Decor
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "home.decor"))%>%
+kable(filter(bbe, Type == "home.decor")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 ```
 
 ## Health, Fitness, and Athletics
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "health"))%>%
+kable(filter(bbe, Type == "health")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```
@@ -61,7 +62,7 @@ kable(filter(bbe, Type == "health"))%>%
 ## Music and Dance
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "music"))%>%
+kable(filter(bbe, Type == "music")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```
@@ -69,7 +70,7 @@ kable(filter(bbe, Type == "music"))%>%
 ## Auto
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "auto"))%>%
+kable(filter(bbe, Type == "auto")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```
@@ -77,7 +78,7 @@ kable(filter(bbe, Type == "auto"))%>%
 ## Boutiques
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "boutiques"))%>%
+kable(filter(bbe, Type == "boutiques")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```
@@ -85,7 +86,7 @@ kable(filter(bbe, Type == "boutiques"))%>%
 ## Animal Support
 ```{r echo=FALSE, results='asis'}
 library(knitr)
-kable(filter(bbe, Type == "animal"))%>%
+kable(filter(bbe, Type == "animal")[,2:3])%>%
   kable_styling(full_width = F, position = "left")
 
 ```

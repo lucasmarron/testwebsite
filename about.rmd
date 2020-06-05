@@ -1,14 +1,27 @@
 ---
-title: "About"
+title: "Resources"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
-This website is to promote Black businesses in Eugene, OR. Put this link on your social media to support our Black community.
+## About
+
+This website is to promote Black owned businesses in Eugene, OR. Put this link on your social media to support our Black community.
 
 ## Black Business Owners
 
-If you are a Black business owner, click the link to fill our our google form. We will update as much as possible.
+If you are a Black business owner, click this [link](https://docs.google.com/forms/d/1e7nEvFQVpagAC_ZzlDfW_Rm4X396wPdgyj8i8J1lNzM) to fill our our google form. We will update as much as possible.
 
 ## Resources in Eugene
 
+[Eugene-Springfield NAACP](https://naacplanecounty.org)
+
+[BLAC: Black Led Action Coalition](https://www.facebook.com/blackledactioncoalition/?hc_ref=ARRq4Yv6WuxZ1Jse3HPi-M_TcWfUdPO7xGcGhhT9HP9f0owdyCsy6c-SUpL3qwfcuPg&fref=nf&__tn__=kC-R) Facebook page
+
+## Where to Donate
+
+## Petitions
 
 ## Creators
 

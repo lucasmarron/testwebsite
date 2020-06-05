@@ -6,4 +6,3 @@ navbar:
     - text: "About"
       href: about.html
 output:
-  html_document:
